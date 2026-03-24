@@ -5,24 +5,28 @@ require_once __DIR__ . "/lib/devuelveJson.php";
 
 $lista = [
  [
-  "nombre" => "Luis",
-  "chiste" => "¿Por qué programar es como el café? Porque sin él no funciono."
+  "nombre" => "balta",
+  "chiste" => "¿Cuál es el pez mas triste? El pes-ame"
  ],
  [
-  "nombre" => "Jesus",
-  "chiste" => "¿Qué le dice un bit al otro? Nos vemos en el bus."
+  "nombre" => "hector",
+"chiste" => "¿Comó se llama las botas que se pueden comer? las bota-nas"
  ],
  [
-  "nombre" => "Irvin",
-  "chiste" => "¿Por qué la computadora fue al doctor? Porque tenía un virus."
+  "nombre" => "itati",
+  "chiste" => "¿Comó se despiden los limones? Acido un placer"
  ],
  [
-  "nombre" => "Saul",
-  "chiste" => "¿Por qué la impresora se asustó? Porque tuvo una impresión fuerte."
+  "nombre" => "roberto",
+  "chiste" => "¿Por qué le dio un paro cardiaco a la impresora? Porque tuvo una impresion muy fuerte"
  ],
  [
-  "nombre" => "Emiliano",
-  "chiste" => "¿Por qué la computadora tiene frío? Porque dejó abierta la ventana"
+  "nombre" => "vane",
+  "chiste" => "¿Qué le dijo un jardinero a otro jardinero? Seamos felices mientras podamos"
+ ],
+ [
+  "nombre" => "angel",
+  "chiste" => "¿Por qué las velas no se duermen tarde? Porque se desvelan"
  ]
 ];
 

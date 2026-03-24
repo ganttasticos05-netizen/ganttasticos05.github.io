@@ -6,11 +6,12 @@ require_once __DIR__ . "/lib/devuelveJson.php";
 $integrante = recibeTexto("integrante");
 
 $chistes = [
- "emiliano" => "¿Por qué la computadora tiene frío? Porque dejó abierta la ventana",
- "luis" => "¿Por qué programar es como el café? Porque sin él no funciono.",
- "irvin" => "¿Por qué la computadora fue al doctor? Porque tenía un virus.",
- "jesus" => "¿Qué le dice un bit al otro? Nos vemos en el bus.",
- "saul" => "¿Por qué le dio un paro a la impresora? Porque tuvo una impresión muy fuerte"
+ "balta" => "¿Cuál es el pez mas triste? El pes-ame",
+ "hector" => "¿Comó se llama las botas que se pueden comer? las bota-nas",
+ "itati" => "¿Comó se despiden los limones? Acido un placer",
+ "roberto" => "¿Por qué le dio un paro cardiaco a la impresora? Porque tuvo una impresion muy fuerte.",
+ "vane" => "¿Qué le dijo un jardinero a otro jardinero? Seamos felices mientras podamos",
+ "angel" => "¿Por qué las velas no se duermen tarde? Porque se desvelan"
 ];
 
 $resultado = [
