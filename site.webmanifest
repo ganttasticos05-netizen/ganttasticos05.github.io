@@ -1,7 +1,8 @@
 {
   "name": "Equipo de Desarrollo PWA",
   "short_name": "Equipo PWA",
-  "start_url": "index.html",
+  "id": "/index.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#fffbfe",
   "theme_color": "#fffbfe",
