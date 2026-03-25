@@ -72,12 +72,12 @@ const ARCHIVOS = [
   "/img/screenshot_vertical.png",
   "/img/Vanne.png",
  "js/nav-tab-fixed.js",
- "js/lib/ES_APPLE.js",
+
  "js/lib/getAttribute.js",
  "js/lib/querySelector.js",
  "js/lib/registraServiceWorker.js",
  "js/lib/resaltaSiEstasEn.js",
- "js/lib/custom/md-app-bar.js",
+
  "ungap/custom-elements.js",
  
 ]
