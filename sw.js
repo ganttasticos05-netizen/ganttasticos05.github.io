@@ -139,7 +139,7 @@ async function buscaLaRespuestaEnElCache(evt) {
 const CACHE_NAME = "pwa-cache-v1";
 
 const FILES = [
-  "/",
+
   "/index.html",
   "/css/estilos.css",
   "/js/lib/consume.js",
