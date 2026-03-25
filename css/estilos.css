@@ -186,3 +186,10 @@ a {
   max-height: none !important;
   overflow: visible !important;
 }
+
+.supporting {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+}
