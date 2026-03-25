@@ -30,12 +30,10 @@ const ARCHIVOS = [
  "fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2",
  "fonts/roboto-v32-latin-regular.woff2",
 
- // IMÁGENES (CORREGIDAS)
  "img/BALTA.png",
  "img/HECTOR.png",
  "img/icon-192.png",
- "img/icon-512-maskable.png",
- "img/maskable_icon2048.png",  
+ "img/icon-512-maskable.png", 
  "img/ITATI.png",
  "img/maskable_icon_x48.png",
  "img/maskable_icon_x72.png",
@@ -44,6 +42,7 @@ const ARCHIVOS = [
  "img/maskable_icon_x192.png",
  "img/maskable_icon_x384.png",
  "img/maskable_icon_x512.png",
+ "img/maskable_icon2048.png", 
  "img/maskable_icon.png",
  "img/MENDIETA.png",
  "img/ROBER.png",
