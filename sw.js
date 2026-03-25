@@ -15,7 +15,7 @@
  * conoce como número menor y se cambia cuando se realizan
  * modificaciones menores.
  */
-const VERSION = "1.12"
+const VERSION = "1.13"
 
 /**
  * Nombre de la carpeta de caché.
@@ -132,3 +132,26 @@ async function buscaLaRespuestaEnElCache(evt) {
   return response
  }
 }
+
+const CACHE_NAME = "pwa-cache-v1";
+
+const FILES = [
+  "/",
+  "/index.html",
+  "/css/estilos.css",
+  "/js/lib/consume.js"
+];
+
+self.addEventListener("install", e => {
+  e.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(cache => cache.addAll(FILES))
+  );
+});
+
+self.addEventListener("fetch", e => {
+  e.respondWith(
+    caches.match(e.request)
+      .then(res => res || fetch(e.request))
+  );
+});
