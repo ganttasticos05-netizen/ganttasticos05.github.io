@@ -15,7 +15,7 @@
  * conoce como número menor y se cambia cuando se realizan
  * modificaciones menores.
  */
-const VERSION = "1.13"
+const VERSION = "1.14"
 
 /**
  * Nombre de la carpeta de caché.
@@ -139,7 +139,27 @@ const FILES = [
   "/",
   "/index.html",
   "/css/estilos.css",
-  "/js/lib/consume.js"
+  "/js/lib/consume.js",
+
+  "/img/BALTA.png",
+  "/img/HECTOR.png",
+  "/img/icon-192.png",
+  "/img/icon-512-maskable.png",
+  "/img/icono2048.png",
+  "/img/ITATI.png",
+  "/img/maskable_icon_x48.png",
+  "/img/maskable_icon_x72.png",
+  "/img/maskable_icon_x96.png",
+  "/img/maskable_icon_x128.png",
+  "/img/maskable_icon_x192.png",
+  "/img/maskable_icon_x384.png",
+  "/img/maskable_icon_x512.png",
+  "/img/maskable_icon.png",
+  "/img/MENDIETA.png",
+  "/img/ROBER.png",
+  "/img/screenshot_horizontal.png",
+  "/img/screenshot_vertical.png",
+  "/img/vanne.png",
 ];
 
 self.addEventListener("install", e => {
