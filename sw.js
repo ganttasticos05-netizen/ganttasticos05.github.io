@@ -70,7 +70,7 @@ const ARCHIVOS = [
   "/img/ROBER.png",
   "/img/screenshot_horizontal.png",
   "/img/screenshot_vertical.png",
-  "/img/vanne.png",
+  "/img/Vanne.png",
  "js/nav-tab-fixed.js",
  "js/lib/ES_APPLE.js",
  "js/lib/getAttribute.js",
@@ -162,7 +162,7 @@ const FILES = [
   "/img/ROBER.png",
   "/img/screenshot_horizontal.png",
   "/img/screenshot_vertical.png",
-  "/img/vanne.png",
+  "/img/Vanne.png",
 ];
 
 self.addEventListener("install", e => {
