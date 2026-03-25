@@ -42,7 +42,7 @@ const ARCHIVOS = [
  "img/maskable_icon_x192.png",
  "img/maskable_icon_x384.png",
  "img/maskable_icon_x512.png",
- "img/maskable_icon2048.png", 
+ "img/Icono2048.png", 
  "img/maskable_icon.png",
  "img/MENDIETA.png",
  "img/ROBER.png",
