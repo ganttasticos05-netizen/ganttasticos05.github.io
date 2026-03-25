@@ -15,7 +15,7 @@
  * conoce como número menor y se cambia cuando se realizan
  * modificaciones menores.
  */
-const VERSION = "1.14"
+const VERSION = "1.15"
 
 /**
  * Nombre de la carpeta de caché.
@@ -52,22 +52,25 @@ const ARCHIVOS = [
  "fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].ttf",
  "fonts/MaterialSymbolsOutlined[FILL,GRAD,opsz,wght].woff2",
  "fonts/roboto-v32-latin-regular.woff2",
- "img/Icono2048.png",
- "img/maskable_icon.png",
- "img/maskable_icon_x128.png",
- "img/maskable_icon_x192.png",
- "img/maskable_icon_x384.png",
- "img/maskable_icon_x48.png",
- "img/maskable_icon_x512.png",
- "img/maskable_icon_x72.png",
- "img/maskable_icon_x96.png",
- "img/penta.jpeg",
- "img/pentaiguana.jpeg",
- "img/pentamisterio.jpeg",
- "img/pentamericano.png",
- "img/pentamono.jpeg",
- "img/screenshot_horizontal.png",
- "img/screenshot_vertical.png",
+  "/img/BALTA.png",
+  "/img/HECTOR.png",
+  "/img/icon-192.png",
+  "/img/icon-512-maskable.png",
+  "/img/icono2048.png",
+  "/img/ITATI.png",
+  "/img/maskable_icon_x48.png",
+  "/img/maskable_icon_x72.png",
+  "/img/maskable_icon_x96.png",
+  "/img/maskable_icon_x128.png",
+  "/img/maskable_icon_x192.png",
+  "/img/maskable_icon_x384.png",
+  "/img/maskable_icon_x512.png",
+  "/img/maskable_icon.png",
+  "/img/MENDIETA.png",
+  "/img/ROBER.png",
+  "/img/screenshot_horizontal.png",
+  "/img/screenshot_vertical.png",
+  "/img/vanne.png",
  "js/nav-tab-fixed.js",
  "js/lib/ES_APPLE.js",
  "js/lib/getAttribute.js",
@@ -165,7 +168,10 @@ const FILES = [
 self.addEventListener("install", e => {
   e.waitUntil(
     caches.open(CACHE_NAME)
-      .then(cache => cache.addAll(FILES))
+      .then(cache => {
+        console.log("Cacheando archivos...");
+        return cache.addAll(FILES);
+      })
   );
 });
 
