@@ -4,6 +4,7 @@
   "id": "/index.html",
   "start_url": "/index.html",
   "display": "standalone",
+  "display_override": ["window-controls-overlay"],
   "background_color": "#fffbfe",
   "theme_color": "#fffbfe",
   "description": "PWA Renderizado",
@@ -22,6 +23,13 @@
       "type": "image/png",
       "form_factor": "narrow",
       "label": "PWA renderizado 2"
+    }
+  ],
+
+    "protocol_handlers": [
+    {
+      "protocol": "web+ganttasticos",
+      "url": "/index.html?url=%s"
     }
   ],
 
